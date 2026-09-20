@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Stakeholder Routes Chile"
+type: dataset
+authors:
+  - family-names: "Elgueta Godoy"
+    given-names: "Sebastián"
+url: "https://github.com/selguetagodoy/stakeholder_routes_Chile"
+repository-code: "https://github.com/selguetagodoy/stakeholder_routes_Chile"
+version: "0.2.0"
+date-released: "2026-09-19"
+keywords:
+  - public affairs
+  - stakeholder mapping
+  - Chile
+  - regulation
+  - permitting
+  - public policy
+  - investment
