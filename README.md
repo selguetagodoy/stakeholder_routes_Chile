@@ -6,9 +6,9 @@ This repository answers a different question from an institutional directory: **
 
 It is designed as a companion to [Chile State Institutional Map](https://github.com/selguetagodoy/chile-state-institutional-map-).
 
-## v0.1 — 2026-09-19
+## v0.2 — 2026-09-19
 
-The first release contains **14 routes** covering environmental assessment, urban/building permits, electricity connection and SEC declarations, telecommunications, water, mining, public procurement, merger control, foreign-investment facilitation, cybersecurity, financial regulation and a composite data-center stakeholder route.
+The current release contains **22 routes**, **72 actor-stage records**, **21 policy-competence mappings**, **17 explicit decision points**, **49 indexed actors** and **16 conditional route relationships**. Coverage now spans environmental assessment and PAS, urban/building permits, electricity, telecommunications, water, mining, public procurement, merger control, foreign investment, cybersecurity, financial regulation, health authorizations, archaeology/heritage, maritime concessions, public-works concessions, native forest, aquaculture, consumer protection and a composite data-center route.
 
 ### Core files
 
@@ -16,6 +16,8 @@ The first release contains **14 routes** covering environmental assessment, urba
 - `data/stakeholder_routes.csv` — route × stage × actor matrix.
 - `data/policy_competences.csv` — institution × policy area × competence.
 - `data/decision_points.csv` — where an approval, rejection, authorization, award or regulatory decision actually occurs.
+- `data/actor_index.csv` — actor → routes index, useful for stakeholder prioritization without assigning political influence scores.
+- `data/route_dependencies.csv` — conditional relationships between routes; distinguishes overlap from legal sequencing.
 - `sources.csv` — primary-source ledger.
 - `docs/methodology.md` — rules for sequencing, conditionality and evidence.
 - `docs/data_dictionary.md` — field definitions.
