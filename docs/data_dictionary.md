@@ -15,3 +15,12 @@ Maps institutions to policy areas and competence types. It is descriptive and do
 ## decision_points.csv
 
 Identifies where a decision is actually made. This prevents platform administrators, technical coordinators or facilitators from being incorrectly represented as the legal decision-maker.
+
+
+## actor_index.csv
+
+Derived index of actors appearing in the route-stage matrix. `route_count` counts distinct routes and `stage_count` counts actor-stage appearances. These are descriptive coverage counts, not influence or power scores.
+
+## route_dependencies.csv
+
+Represents relationships between routes. `relationship_type` distinguishes `may_activate`, `may_co_occur`, `may_overlap` and `contains_if_applicable`. The table must not be interpreted as a universal chronological sequence.
