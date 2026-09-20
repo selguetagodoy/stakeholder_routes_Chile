@@ -38,3 +38,12 @@ Each substantive row must reference a `source_id` in `sources.csv`. Primary inst
 ## Legal transitions
 
 Rules with deferred entry into force are not treated as current. In particular, the personal-data framework under Law N°21.719 enters into force on 2026-12-01 and should be modeled in a versioned route after that effective date.
+
+
+## Cross-route relationships
+
+Complex projects frequently activate more than one regulatory route. `route_dependencies.csv` records those relationships without turning them into a false linear checklist. A relationship such as `may_co_occur` means two regimes can apply to the same project; it does not state that one legally precedes the other.
+
+## Actor index
+
+`actor_index.csv` is generated from observed route participation. Route counts are descriptive only. They must not be used as a ranking of institutional importance, political influence or stakeholder priority without a separate, explicit analytical methodology.
