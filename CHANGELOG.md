@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.3.0 — 2026-09-19
+
+- Added a dated snapshot of 13 current authorities for institutions represented in the route model.
+- Added 7 regulatory/public consultations with open/closed status as of 2026-09-19.
+- Added 8 regulatory-calendar milestones, preserving whether dates are official exact dates or derived from an official duration.
+- Kept volatile monitoring data separate from stable institutional and route architecture.
+- Added a dedicated public monitoring view and validation rules.
+
 ## v0.2.0 — 2026-09-19
 
 - Expanded coverage from 14 to 22 routes and from 45 to 72 actor-stage records.
