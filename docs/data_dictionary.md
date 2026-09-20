@@ -24,3 +24,16 @@ Derived index of actors appearing in the route-stage matrix. `route_count` count
 ## route_dependencies.csv
 
 Represents relationships between routes. `relationship_type` distinguishes `may_activate`, `may_co_occur`, `may_overlap` and `contains_if_applicable`. The table must not be interpreted as a universal chronological sequence.
+
+
+## current_authorities.csv
+
+Dated snapshot of current officeholders. `appointment_status` distinguishes titular and subrogante roles; `valid_from` is populated only when an official start date was verified. This file is volatile and must never be treated as historical truth outside its `last_verified` date.
+
+## consultations.csv
+
+Tracks regulatory and public consultations. `status_as_of` is explicitly date-bound. `close_date_basis` distinguishes exact official dates from dates calculated mechanically from an official duration.
+
+## regulatory_calendar.csv
+
+Forward-looking and completed regulatory milestones. `date_precision` prevents false precision (for example, a rule known only to enter into force in a given month). `date_basis` records whether the date is official or mechanically derived from an official period.
