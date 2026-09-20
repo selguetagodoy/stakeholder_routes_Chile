@@ -10,6 +10,10 @@ It is designed as a companion to [Chile State Institutional Map](https://github.
 
 The current release contains **22 routes**, **72 actor-stage records**, **21 policy-competence mappings**, **17 explicit decision points**, **49 indexed actors** and **16 conditional route relationships**. Coverage now spans environmental assessment and PAS, urban/building permits, electricity, telecommunications, water, mining, public procurement, merger control, foreign investment, cybersecurity, financial regulation, health authorizations, archaeology/heritage, maritime concessions, public-works concessions, native forest, aquaculture, consumer protection and a composite data-center route.
 
+### Web explorer
+
+A searchable, self-contained explorer is available at `docs/index.html` and is prepared for publication from the repository's `/docs` folder with GitHub Pages. It supports free-text search and filtering by policy area and route type.
+
 ### Core files
 
 - `data/route_catalog.csv` — one row per route, its trigger, main actor, output and scope limitations.
@@ -21,6 +25,7 @@ The current release contains **22 routes**, **72 actor-stage records**, **21 pol
 - `sources.csv` — primary-source ledger.
 - `docs/methodology.md` — rules for sequencing, conditionality and evidence.
 - `docs/data_dictionary.md` — field definitions.
+- `docs/index.html` — searchable public-facing route explorer.
 
 ## Important distinction
 
