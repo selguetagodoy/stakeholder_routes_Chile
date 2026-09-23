@@ -1,6 +1,6 @@
 # Stakeholder Routes Chile
 
-**Latest release:** [v0.3.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.3.0) · [Concept DOI: 10.5281/zenodo.22921233](https://doi.org/10.5281/zenodo.22921233)
+**Latest release:** [v0.2.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.2.0) · [Concept DOI: 10.5281/zenodo.22921233](https://doi.org/10.5281/zenodo.22921233) · [Version DOI: 10.5281/zenodo.22921234](https://doi.org/10.5281/zenodo.22921234)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921233.svg)](https://doi.org/10.5281/zenodo.22921233)
 
@@ -12,7 +12,7 @@ This repository answers a different question from an institutional directory: **
 
 It is designed as a companion to [Chile State Institutional Map](https://github.com/selguetagodoy/chile-state-institutional-map-).
 
-## v0.3.0 — 2026-09-19
+## Monitoring layer — 2026-09-19
 
 The current release contains **22 routes**, **72 actor-stage records**, **21 policy-competence mappings**, **17 explicit decision points**, **49 indexed actors** and **16 conditional route relationships**. It also adds a dated monitoring snapshot with **13 current authorities**, **7 regulatory consultations** and **8 regulatory-calendar milestones**. Coverage now spans environmental assessment and PAS, urban/building permits, electricity, telecommunications, water, mining, public procurement, merger control, foreign investment, cybersecurity, financial regulation, health authorizations, archaeology/heritage, maritime concessions, public-works concessions, native forest, aquaculture, consumer protection and a composite data-center route.
 
