@@ -4,6 +4,8 @@
 
 This repository answers a different question from an institutional directory: **who intervenes, at what stage, with what competence, and what decision or output can result?**
 
+**Author profile:** https://selguetagodoy.github.io/
+
 It is designed as a companion to [Chile State Institutional Map](https://github.com/selguetagodoy/chile-state-institutional-map-).
 
 ## v0.3 — 2026-09-19
@@ -57,6 +59,8 @@ As of **2026-09-19**, Law N°21.719 has deferred entry into force to **2026-12-0
 
 ## Author
 
-**Sebastián Elgueta Godoy** — Sociologist · Public Affairs · Public Policy · Regulation · Digital Infrastructure · Latin America.
+**[Sebastián Elgueta Godoy](https://selguetagodoy.github.io/)** — Sociologist · Public Affairs · Public Policy · Regulation · Digital Infrastructure · Latin America.
+
+[Professional profile](https://selguetagodoy.github.io/bio.html) · [Research](https://selguetagodoy.github.io/investigacion.html) · [GitHub profile](https://github.com/selguetagodoy)
 
 All routes prioritize primary institutional sources and preserve conditionality rather than inventing mandatory steps.
