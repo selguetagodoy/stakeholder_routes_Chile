@@ -1,5 +1,7 @@
 # Stakeholder Routes Chile
 
+**Latest release:** [v0.2.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.2.0) · Zenodo integration enabled
+
 **Open decision-route and stakeholder-mapping dataset for public affairs, regulation and investment projects in Chile.**
 
 This repository answers a different question from an institutional directory: **who intervenes, at what stage, with what competence, and what decision or output can result?**
