@@ -9,6 +9,8 @@ url: "https://github.com/selguetagodoy/stakeholder_routes_Chile"
 repository-code: "https://github.com/selguetagodoy/stakeholder_routes_Chile"
 version: "0.2.0"
 date-released: "2026-09-19"
+abstract: >-
+  Open decision-route dataset for public affairs in Chile, mapping regulatory and investment pathways by actor, stage, competence, conditionality and decision point.
 keywords:
   - public affairs
   - stakeholder mapping
