@@ -79,3 +79,10 @@ The validation workflow checks structural relationships and source references. A
 [Professional profile](https://selguetagodoy.github.io/bio.html) · [Research](https://selguetagodoy.github.io/investigacion.html) · [GitHub profile](https://github.com/selguetagodoy)
 
 All routes prioritize primary institutional sources and preserve conditionality rather than inventing mandatory steps.
+
+## Related research
+
+- [Chile State Institutional Map](https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html) — institutional backbone for public-affairs analysis.
+- [Latin America Digital Infrastructure](https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html) — regional infrastructure benchmark and institutional context.
+- [Public affairs and regulatory analysis](https://selguetagodoy.github.io/asuntos-publicos.html) — thematic public research hub.
+
