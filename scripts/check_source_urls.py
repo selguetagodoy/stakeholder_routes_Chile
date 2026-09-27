@@ -28,9 +28,13 @@ def check(url: str) -> tuple[str, str]:
         with urlopen(request, timeout=TIMEOUT) as response:
             return "OK", str(response.status)
     except HTTPError as exc:
-        if exc.code == 405:
+        if exc.code == 405 or exc.code >= 500:
             try:
-                request = Request(url, headers={"User-Agent": USER_AGENT, "Range": "bytes=0-0"}, method="GET")
+                request = Request(
+                    url,
+                    headers={"User-Agent": USER_AGENT, "Range": "bytes=0-1023"},
+                    method="GET",
+                )
                 with urlopen(request, timeout=TIMEOUT) as response:
                     return "OK", str(response.status)
             except HTTPError as fallback:
