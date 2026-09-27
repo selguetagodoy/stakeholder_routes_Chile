@@ -3,6 +3,7 @@
 **Latest release:** [v0.2.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.2.0) · [Concept DOI: 10.5281/zenodo.22921233](https://doi.org/10.5281/zenodo.22921233) · [Version DOI: 10.5281/zenodo.22921234](https://doi.org/10.5281/zenodo.22921234)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921233.svg)](https://doi.org/10.5281/zenodo.22921233)
+[![Validate](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/validate.yml/badge.svg)](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/validate.yml) [![Source URL Liveness](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/source-urls.yml/badge.svg)](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/source-urls.yml)
 
 **Open decision-route and stakeholder-mapping dataset for public affairs, regulation and investment projects in Chile.**
 
@@ -60,6 +61,12 @@ The data-center route is deliberately marked `composite_stakeholder_route`: ther
 ## Data protection transition
 
 As of **2026-09-19**, Law N°21.719 has deferred entry into force to **2026-12-01**. A future personal-data route should therefore be versioned by effective date rather than presenting the new Agency framework as already operative.
+
+## Provenance and QA
+
+[SOURCE_OF_TRUTH.md](SOURCE_OF_TRUTH.md) defines the hierarchy between primary sources, structural route tables, volatile monitoring layers and public explorer pages. [sources.csv](sources.csv) remains the canonical primary-source ledger.
+
+The validation workflow checks structural relationships and source references. A separate weekly source-health workflow tests registered URLs without changing any route. This preserves the distinction between evidence monitoring and substantive legal/regulatory interpretation.
 
 ## Author
 
