@@ -1,0 +1,223 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.2/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Stakeholder Routes Chile",
+      "description": "Decision-route dataset for public affairs and investment projects in Chile, mapping regulatory pathways by actor, stage, competence, conditionality and decision point.",
+      "datePublished": "2026-09-23",
+      "version": "0.2.0",
+      "identifier": "https://doi.org/10.5281/zenodo.22921234",
+      "url": "https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html",
+      "creator": {
+        "@id": "https://selguetagodoy.github.io/#person"
+      },
+      "sameAs": [
+        "https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html",
+        "https://github.com/selguetagodoy/stakeholder_routes_Chile",
+        "https://doi.org/10.5281/zenodo.22921234",
+        "https://doi.org/10.5281/zenodo.22921233"
+      ],
+      "hasPart": [
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "SOURCE_OF_TRUTH.md"
+        },
+        {
+          "@id": "CITATION.cff"
+        },
+        {
+          "@id": "CITATION.bib"
+        },
+        {
+          "@id": "codemeta.json"
+        },
+        {
+          "@id": "datapackage.json"
+        },
+        {
+          "@id": "NOTICE.md"
+        },
+        {
+          "@id": "CHANGELOG.md"
+        },
+        {
+          "@id": "CONTRIBUTING.md"
+        },
+        {
+          "@id": "data/route_catalog.csv"
+        },
+        {
+          "@id": "data/stakeholder_routes.csv"
+        },
+        {
+          "@id": "data/actor_index.csv"
+        },
+        {
+          "@id": "data/decision_points.csv"
+        },
+        {
+          "@id": "data/route_dependencies.csv"
+        },
+        {
+          "@id": "data/policy_competences.csv"
+        },
+        {
+          "@id": "data/current_authorities.csv"
+        },
+        {
+          "@id": "data/consultations.csv"
+        },
+        {
+          "@id": "data/regulatory_calendar.csv"
+        },
+        {
+          "@id": "sources.csv"
+        }
+      ]
+    },
+    {
+      "@id": "https://selguetagodoy.github.io/#person",
+      "@type": "Person",
+      "name": "Sebastián Elgueta Godoy",
+      "url": "https://selguetagodoy.github.io/"
+    },
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "name": "README",
+      "encodingFormat": "text/markdown"
+    },
+    {
+      "@id": "SOURCE_OF_TRUTH.md",
+      "@type": "File",
+      "name": "Source of Truth",
+      "encodingFormat": "text/markdown"
+    },
+    {
+      "@id": "CITATION.cff",
+      "@type": "File",
+      "name": "Citation metadata (CFF)",
+      "encodingFormat": "text/yaml"
+    },
+    {
+      "@id": "CITATION.bib",
+      "@type": "File",
+      "name": "BibTeX citation",
+      "encodingFormat": "application/x-bibtex"
+    },
+    {
+      "@id": "codemeta.json",
+      "@type": "File",
+      "name": "CodeMeta metadata",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@id": "datapackage.json",
+      "@type": "File",
+      "name": "Frictionless Data Package",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@id": "NOTICE.md",
+      "@type": "File",
+      "name": "Authorship and reuse notice",
+      "encodingFormat": "text/markdown"
+    },
+    {
+      "@id": "CHANGELOG.md",
+      "@type": "File",
+      "name": "Version history",
+      "encodingFormat": "text/markdown"
+    },
+    {
+      "@id": "CONTRIBUTING.md",
+      "@type": "File",
+      "name": "Contribution policy",
+      "encodingFormat": "text/markdown"
+    },
+    {
+      "@id": "data/route_catalog.csv",
+      "@type": "File",
+      "name": "route-catalog",
+      "encodingFormat": "text/csv",
+      "contentSize": "9637 B"
+    },
+    {
+      "@id": "data/stakeholder_routes.csv",
+      "@type": "File",
+      "name": "stakeholder-routes",
+      "encodingFormat": "text/csv",
+      "contentSize": "16627 B"
+    },
+    {
+      "@id": "data/actor_index.csv",
+      "@type": "File",
+      "name": "actor-index",
+      "encodingFormat": "text/csv",
+      "contentSize": "5062 B"
+    },
+    {
+      "@id": "data/decision_points.csv",
+      "@type": "File",
+      "name": "decision-points",
+      "encodingFormat": "text/csv",
+      "contentSize": "3817 B"
+    },
+    {
+      "@id": "data/route_dependencies.csv",
+      "@type": "File",
+      "name": "route-dependencies",
+      "encodingFormat": "text/csv",
+      "contentSize": "2629 B"
+    },
+    {
+      "@id": "data/policy_competences.csv",
+      "@type": "File",
+      "name": "policy-competences",
+      "encodingFormat": "text/csv",
+      "contentSize": "4034 B"
+    },
+    {
+      "@id": "data/current_authorities.csv",
+      "@type": "File",
+      "name": "current-authorities",
+      "encodingFormat": "text/csv",
+      "contentSize": "3572 B"
+    },
+    {
+      "@id": "data/consultations.csv",
+      "@type": "File",
+      "name": "consultations",
+      "encodingFormat": "text/csv",
+      "contentSize": "2943 B"
+    },
+    {
+      "@id": "data/regulatory_calendar.csv",
+      "@type": "File",
+      "name": "regulatory-calendar",
+      "encodingFormat": "text/csv",
+      "contentSize": "2898 B"
+    },
+    {
+      "@id": "sources.csv",
+      "@type": "File",
+      "name": "sources",
+      "encodingFormat": "text/csv",
+      "contentSize": "4207 B"
+    }
+  ]
+}
