@@ -45,7 +45,13 @@ def check(url: str) -> tuple[str, str]:
             return "WARN", f"HTTP {exc.code}"
         return "DEAD", f"HTTP {exc.code}"
     except URLError as exc:
-        return "DEAD", f"network: {exc.reason}"
+        reason = str(exc.reason)
+        lowered = reason.lower()
+        if "certificate" in lowered or "ssl" in lowered:
+            return "WARN", f"TLS verification: {reason}"
+        return "DEAD", f"network: {reason}"
+    except ConnectionResetError as exc:
+        return "WARN", f"connection reset: {exc}"
     except Exception as exc:  # noqa: BLE001
         return "DEAD", str(exc)
 
