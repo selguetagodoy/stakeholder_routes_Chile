@@ -2,6 +2,8 @@
 
 ![Research project header](assets/research-card.svg)
 
+[![Data Package Integrity](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/data-package.yml/badge.svg)](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/data-package.yml)
+
 **Latest GitHub release:** [v0.3.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.3.0) · **Latest Zenodo-archived version:** [v0.2.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.2.0) · [Concept DOI: 10.5281/zenodo.22921233](https://doi.org/10.5281/zenodo.22921233) · [v0.2.0 DOI: 10.5281/zenodo.22921234](https://doi.org/10.5281/zenodo.22921234)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921233.svg)](https://doi.org/10.5281/zenodo.22921233)
