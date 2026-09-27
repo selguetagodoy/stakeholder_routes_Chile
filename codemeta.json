@@ -1,0 +1,44 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "Dataset",
+  "name": "Stakeholder Routes Chile",
+  "description": "Open decision-route dataset for public affairs in Chile, mapping regulatory and investment pathways by actor, stage, competence, conditionality and decision point.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Sebastián",
+      "familyName": "Elgueta Godoy",
+      "url": "https://selguetagodoy.github.io/"
+    }
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "givenName": "Sebastián",
+      "familyName": "Elgueta Godoy",
+      "url": "https://selguetagodoy.github.io/"
+    }
+  ],
+  "datePublished": "2026",
+  "version": "0.2.0",
+  "identifier": "https://doi.org/10.5281/zenodo.22921234",
+  "url": "https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html",
+  "codeRepository": "https://github.com/selguetagodoy/stakeholder_routes_Chile",
+  "relatedLink": [
+    "https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html",
+    "https://selguetagodoy.github.io/asuntos-publicos.html",
+    "https://doi.org/10.5281/zenodo.22921234"
+  ],
+  "keywords": [
+    "public affairs",
+    "stakeholder mapping",
+    "Chile",
+    "regulation",
+    "permitting",
+    "public policy",
+    "investment",
+    "decision routes",
+    "regulatory analysis"
+  ],
+  "inLanguage": "en"
+}
