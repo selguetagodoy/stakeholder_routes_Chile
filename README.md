@@ -82,6 +82,14 @@ The validation workflow checks structural relationships and source references. A
 
 All routes prioritize primary institutional sources and preserve conditionality rather than inventing mandatory steps.
 
+
+## Citation and metadata
+
+- [CITATION.cff](CITATION.cff) — GitHub/academic citation metadata
+- [CITATION.bib](CITATION.bib) — BibTeX citation
+- [codemeta.json](codemeta.json) — machine-readable research metadata
+- [NOTICE.md](NOTICE.md) — authorship and third-party reuse boundaries
+
 ## Related research
 
 - [Chile State Institutional Map](https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html) — institutional backbone for public-affairs analysis.
