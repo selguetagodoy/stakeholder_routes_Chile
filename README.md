@@ -5,6 +5,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921233.svg)](https://doi.org/10.5281/zenodo.22921233)
 [![Validate](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/validate.yml/badge.svg)](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/validate.yml) [![Source URL Liveness](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/source-urls.yml/badge.svg)](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/source-urls.yml)
 
+**Public dataset landing page:** https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html
+
 **Open decision-route and stakeholder-mapping dataset for public affairs, regulation and investment projects in Chile.**
 
 This repository answers a different question from an institutional directory: **who intervenes, at what stage, with what competence, and what decision or output can result?**
