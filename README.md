@@ -6,6 +6,8 @@
 
 **Latest GitHub release:** [v0.3.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.3.0) · **Latest Zenodo-archived version:** [v0.2.0](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.2.0) · [Concept DOI: 10.5281/zenodo.22921233](https://doi.org/10.5281/zenodo.22921233) · [v0.2.0 DOI: 10.5281/zenodo.22921234](https://doi.org/10.5281/zenodo.22921234)
 
+**Citable release date:** 2026-09-23
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921233.svg)](https://doi.org/10.5281/zenodo.22921233)
 [![Validate](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/validate.yml/badge.svg)](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/validate.yml) [![Source URL Liveness](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/source-urls.yml/badge.svg)](https://github.com/selguetagodoy/stakeholder_routes_Chile/actions/workflows/source-urls.yml)
 
