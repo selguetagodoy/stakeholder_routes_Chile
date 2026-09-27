@@ -1,0 +1,82 @@
+{
+  "profile": "data-package",
+  "name": "stakeholder-routes-chile",
+  "title": "Stakeholder Routes Chile",
+  "description": "Decision-route data package for public affairs and investment projects in Chile.",
+  "version": "0.3.0",
+  "homepage": "https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html",
+  "contributors": [
+    {
+      "title": "Sebastián Elgueta Godoy",
+      "role": "author",
+      "path": "https://selguetagodoy.github.io/"
+    }
+  ],
+  "citation": {
+    "concept_doi": "https://doi.org/10.5281/zenodo.22921233",
+    "latest_confirmed_version_doi": "https://doi.org/10.5281/zenodo.22921234",
+    "latest_confirmed_citable_version": "0.2.0"
+  },
+  "resources": [
+    {
+      "name": "route-catalog",
+      "path": "data/route_catalog.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "stakeholder-routes",
+      "path": "data/stakeholder_routes.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "actor-index",
+      "path": "data/actor_index.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "decision-points",
+      "path": "data/decision_points.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "route-dependencies",
+      "path": "data/route_dependencies.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "policy-competences",
+      "path": "data/policy_competences.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "current-authorities",
+      "path": "data/current_authorities.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "consultations",
+      "path": "data/consultations.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "regulatory-calendar",
+      "path": "data/regulatory_calendar.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "sources",
+      "path": "sources.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}
