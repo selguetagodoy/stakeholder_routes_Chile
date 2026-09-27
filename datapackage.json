@@ -22,61 +22,81 @@
       "name": "route-catalog",
       "path": "data/route_catalog.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 9637,
+      "git_blob_sha": "40dec37fdb948a377e0fac8628c3df094fe50088"
     },
     {
       "name": "stakeholder-routes",
       "path": "data/stakeholder_routes.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 16627,
+      "git_blob_sha": "c948cdeb5f41c65ebeae78970a361f4cb6b268e1"
     },
     {
       "name": "actor-index",
       "path": "data/actor_index.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 5062,
+      "git_blob_sha": "10fb8266056580f01081b3fd218fee4f60472e97"
     },
     {
       "name": "decision-points",
       "path": "data/decision_points.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 3817,
+      "git_blob_sha": "a3639840fd45659ddbaca2450c22bd467eb6c454"
     },
     {
       "name": "route-dependencies",
       "path": "data/route_dependencies.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 2629,
+      "git_blob_sha": "54a7855f7eb71be6c5c30d3f4b35b92763ae5faf"
     },
     {
       "name": "policy-competences",
       "path": "data/policy_competences.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 4034,
+      "git_blob_sha": "dc36d620fde2feb6ef787a568ba21c51754881a7"
     },
     {
       "name": "current-authorities",
       "path": "data/current_authorities.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 3572,
+      "git_blob_sha": "d13da72851d13089297e6e5561f3a5b9ef988684"
     },
     {
       "name": "consultations",
       "path": "data/consultations.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 2943,
+      "git_blob_sha": "a5ed66a074b0536950ca895e4507755a9e955b9b"
     },
     {
       "name": "regulatory-calendar",
       "path": "data/regulatory_calendar.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 2898,
+      "git_blob_sha": "5d8a15d8287c3067c4244f64bf7b43b27855598b"
     },
     {
       "name": "sources",
       "path": "sources.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 4207,
+      "git_blob_sha": "b6b27fe59038540d7bb67322eb4c9d26f980a0ae"
     }
   ]
 }
