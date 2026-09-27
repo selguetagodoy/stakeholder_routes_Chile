@@ -1,0 +1,44 @@
+name: Source URL Liveness
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "sources.csv"
+      - "data/source_registry.csv"
+      - "scripts/check_source_urls.py"
+      - ".github/workflows/source-urls.yml"
+  schedule:
+    - cron: "10 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: source-url-liveness
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Check canonical source URLs
+        run: |
+          set -o pipefail
+          python scripts/check_source_urls.py | tee source-url-report.txt
+      - name: Publish summary
+        if: always()
+        run: |
+          echo "## Source URL Liveness" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f source-url-report.txt ]; then
+            cat source-url-report.txt >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No report generated; inspect logs." >> "$GITHUB_STEP_SUMMARY"
+          fi
